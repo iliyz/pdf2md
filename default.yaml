@@ -1,0 +1,15 @@
+api_token: "eyJ0eXBlIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJqdGkiOiI2MjQwNDU0NyIsInJvbCI6IlJPTEVfUkVHSVNURVIiLCJpc3MiOiJPcGVuWExhYiIsImlhdCI6MTc3ODU1Njk0NiwiY2xpZW50SWQiOiJsa3pkeDU3bnZ5MjJqa3BxOXgydyIsInBob25lIjoiIiwib3BlbklkIjpudWxsLCJ1dWlkIjoiNzI1ZWVkZTctYTVjZS00ZDE5LTkzMTAtYzc3MzAxMjNkYmQyIiwiZW1haWwiOiIiLCJleHAiOjE3ODYzMzI5NDZ9.4bHmvMEDTM-jHBpvFmSnWQteeBfU_Ir9lS0cFoW5a7WJrQT1xJ_D3ctb9XhvmwcilWoduY4Ts0-s6v_2cXrqzQ"
+
+model_version: "pipeline"
+is_ocr: true
+enable_formula: true
+enable_table: true
+language: "ch"
+
+max_pages: 200
+max_size_mb: 200
+split_size_mb: 150
+batch_size: 50
+poll_interval: 15
+
+process_mode_threshold: 15
